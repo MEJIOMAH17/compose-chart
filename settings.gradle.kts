@@ -18,4 +18,4 @@ pluginManagement {
 
 rootProject.name = "compose-chart"
 
-include(":android", ":desktop", ":common")
+include(":pie", ":example:android", ":example:desktop")
