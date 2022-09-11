@@ -1,5 +1,5 @@
-group "com.github.mejiomah17.compose.chart"
-version "1.0-SNAPSHOT"
+group = "com.github.mejiomah17.compose.chart"
+version = "0.1.0-SNAPSHOT"
 
 allprojects {
     apply(plugin = "org.jlleitschuh.gradle.ktlint")
