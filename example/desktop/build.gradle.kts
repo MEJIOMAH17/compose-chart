@@ -20,6 +20,7 @@ kotlin {
         val jvmMain by getting {
             dependencies {
                 implementation(project(":pie"))
+                implementation(project(":rectangle"))
                 implementation(compose.desktop.currentOs)
             }
         }

@@ -12,10 +12,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/chart" />
             <option value="$PROJECT_DIR$/example" />
             <option value="$PROJECT_DIR$/example/android" />
             <option value="$PROJECT_DIR$/example/desktop" />
             <option value="$PROJECT_DIR$/pie" />
+            <option value="$PROJECT_DIR$/rectangle" />
           </set>
         </option>
       </GradleProjectSettings>
