@@ -75,7 +75,6 @@ public fun RectangleChart(
         val sectorHeights = sectors.associateWith {
             minSectorHeight + (freeSpace * (it.weight / totalWeight).toFloat())
         }
-        println(sectorHeights)
         Column() {
             sectors.sortedBy { it.weight }.forEach { sector ->
                 Row(modifier = Modifier
